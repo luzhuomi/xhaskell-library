@@ -20,6 +20,8 @@ an emptiable pattern and the input word is fully consumed.
 >     , regexec
 >     ) where 
 
+
+> import Prelude hiding (Word)
 > import Data.List 
 > import Data.Char (ord)
 > -- import GHC.Int

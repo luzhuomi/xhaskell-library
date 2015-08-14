@@ -23,6 +23,8 @@ failures states as long as we cannot find them in the sets.
 >     , regexec
 >     ) where 
 
+
+> import Prelude hiding (Word)
 > import Data.List 
 > import Data.Char (ord)
 > import GHC.Int

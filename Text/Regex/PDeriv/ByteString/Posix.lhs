@@ -27,6 +27,7 @@ See resetLocalBnd below. Todo: we might want to update other algos to make it co
 >     ) where 
 
 
+> import Prelude hiding (Word)
 > import System.IO.Unsafe
 
 

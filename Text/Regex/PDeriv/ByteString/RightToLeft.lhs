@@ -22,6 +22,8 @@ is reached (AKA init state of the NFA) and the input word is fully consumed.
 >     , parsePat
 >     ) where 
 
+
+> import Prelude hiding (Word)
 > import Data.List 
 > import Data.Char (ord)
 > import GHC.Int
